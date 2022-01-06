@@ -1,0 +1,1 @@
+[09-Sep-2021 20:55:27 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/ck4iohz6qhp1/public_html/Pool/wp-content/plugins/essential-grid/includes/item-skin.class.php on line 1306

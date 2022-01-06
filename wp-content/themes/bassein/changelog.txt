@@ -1,0 +1,6 @@
+Version 1.0.1
+	* WordPress Version 4.9.4 ready
+	* Plugins updated
+
+Version 1.0
+	Release

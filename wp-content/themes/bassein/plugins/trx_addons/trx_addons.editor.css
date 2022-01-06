@@ -1,0 +1,52 @@
+/* Theme-specific rules for the WP Editor */
+.trx_addons_dropcap {
+    -webkit-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+}
+.trx_addons_dropcap {
+    font-size: 4em;
+    width: 1.185em;
+    height: 1.185em;
+    line-height: 1.185em;
+    margin: 0.15em 0.4em 0 0;
+}
+ul.trx_addons_list_custom > li:before {
+    content: ' ';
+    display: block;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    left: -1.4em;
+    top: 0.79em;
+}
+ul.trx_addons_list_success > li:before, ul.trx_addons_list_error > li:before, ul.trx_addons_list_plus > li:before, ul.trx_addons_list_minus > li:before {
+    left: -1.65em;
+    top: -1px;
+}
+.sc_table table tr:first-child th, .sc_table table tr:first-child td {
+    font-weight: 300;
+}
+
+.trx_addons_list_number {
+    counter-reset: li;
+    margin-left: 0;
+    padding-left: 0;
+}
+.trx_addons_list_number>li {
+    position: relative;
+    list-style: none;
+    border-bottom: 1px solid;
+    padding: 2.1em 0 1.64em 0;
+}
+.trx_addons_list_number>li:before {
+    content: counter(li, decimal-leading-zero);
+    counter-increment: li;
+    font-size:2.33em;
+    padding-right:1.17em;
+    position: relative;
+    left: 0;
+    top: 0;
+    vertical-align: text-top;
+    padding-bottom: 0.7em;
+}
